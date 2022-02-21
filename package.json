@@ -1,0 +1,31 @@
+{
+  "name": "api-db",
+  "version": "0.0.1",
+  "description": "API way to edit a file database",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "ts-node src/test.ts",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FloatingComet62/API-DB.git"
+  },
+  "keywords": [
+    "API",
+    "database\\"
+  ],
+  "author": "FloatingComet62",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FloatingComet62/API-DB/issues"
+  },
+  "homepage": "https://github.com/FloatingComet62/API-DB#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.18"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
